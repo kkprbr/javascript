@@ -1,0 +1,28 @@
+
+<html>
+    <head>
+        <style>
+            #text {color:blue;}
+        </style>
+    </head>
+    <body>
+        <div style="text-align: left;">
+        <h1> Content Change</h1>
+        <h2 id="content">Hello Naveen!</h2>
+        <h3> Welcome To Java Script</h3>
+        <button type="button" onclick='document.getElementById("content").innerHTML="Hello Krishna"'>Name</button>
+
+        <h1>Change In Attributes</h1>
+        <img id="image" src="image1.jpg" width="100" height="100">
+        <button type="button" onclick='document.getElementById("image").src="image2.jpg"'>Second</button>
+
+        <h1> Change in Css</h1>
+        <h2 id="text"> Welcome To Java script</h2>
+        <button type="button" onclick='document.getElementById("text").style.color="green"'>green</button>
+    </div>
+        <h1>HIDE AND DISPLAY CONTENT</h1>
+        <h2 id="hidedisplay">This will demonstarte the hinding and displaying the content</h2>
+        <button type="button" onclick='document.getElementById("hidedisplay").style.display="none"'>Hide</button>
+        <button type="button" onclick='document.getElementById("hidedisplay").style.display="block"''>Display</button>
+    </body>
+</html>
